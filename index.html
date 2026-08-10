@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Site pessoal de Gustavo Berti Taveira, estudante de programação.">
+    <!-- Content Security Policy: só permite carregar recursos do próprio site,
+         reduzindo o risco de scripts maliciosos injetados serem executados. -->
+    <meta http-equiv="Content-Security-Policy"
+          content="default-src 'self'; img-src 'self' data:; style-src 'self'; script-src 'self'; base-uri 'self'; form-action 'self';">
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    <title>Gustavo Berti Taveira site</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <header>
+            <div class="logo">Gustavo Berti Taveira</div>
+            <nav class="nav-links">
+                <a href="#sobre">About</a>
+                <a href="#cursos">Curses</a>
+                <a href="#links">Contacts</a>
+            </nav>
+        </header>
+
+        <section class="hero">
+            <div class="hero-text">
+                <h1>Hi, I'm <span>Gustavo</span></h1>
+                <h2>Programming student</h2>
+                <p>I'm a person who wants to improve at all times!</p>
+            </div>
+            <div class="hero-img">
+                <img src="foto-perfil.jpg" alt="" class="avatar" loading="lazy">
+            </div>
+        </section>
+
+        <section id="sobre" class="about-section">
+            <h3>About me</h3>
+            <p>I'm 15 years old, born in Brazil, in my first year of high school and trying to learn more about programming to continue in this field in the future.</p>
+        </section>
+
+        <section id="cursos" class="about-section">
+            <h3>Curses and certifications</h3>
+
+            <div class="cursos-container">
+
+                <div class="cursos-coluna">
+                    <h4>Udemy Courses</h4>
+                    <ul class="cursos-lista">
+                        <li>
+                            <a target="_blank" rel="noopener noreferrer" href="https://www.udemy.com/course/curso-gratuito-de-html/">
+                                Curso rápido de HTML e fundamentos
+                            </a>
+                        </li>
+                        <li>
+                            <a target="_blank" rel="noopener noreferrer" href="https://www.udemy.com/course/html-para-iniciantes-oficial/">
+                                Domine os fundamentos HTML
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="cursos-coluna">
+                    <h4>Other Courses</h4>
+                    <ul class="cursos-lista">
+                        <li>
+                            <a target="_blank" rel="noopener noreferrer" href="https://ead.estudar.org.br/c/cc50-o-curso-de-ciencia-da-computacao-de-harvard-no-brasil">
+                                CC50 - O Curso de Ciência da Computação de Harvard no Brasil
+                            </a>
+                        </li>
+                        <li>
+                            <a target="_blank" rel="noopener noreferrer" href="https://www.culturainglesa.com.br/cursos-de-ingles/">
+                                Curso de Inglês - Cultura Inglesa
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="links">
+            <div class="links-grid">
+                <a href="https://github.com/gugax1" target="_blank" rel="noopener noreferrer" class="link-card">
+                    GitHub
+                </a>
+                <a href="https://www.instagram.com/guga.bt_?igsh=MTJ0ZWJ6MTZnY2FzcQ%3D%3D&utm_source=qr" target="_blank" rel="noopener noreferrer" class="link-card">
+                    Instagram
+                </a>
+                <a href="https://wa.me/5524993289704" target="_blank" rel="noopener noreferrer" class="link-card">
+                    WhatsApp
+                </a>
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; 2026 Gustavo Berti Taveira. Todos os direitos reservados.</p>
+        </footer>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
